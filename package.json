@@ -1,0 +1,41 @@
+{
+  "name": "microfrontends",
+  "version": "1.0.0",
+  "description": "Micro Frontends Implementation Project",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build:debug": "webpack --mode=development",
+    "start": "webpack serve --mode=development"
+  },
+  "keywords": [
+    "micro",
+    "frontend"
+  ],
+  "author": "Vladilen Minin @vladilen.minin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "single-spa": "^5.9.3",
+    "single-spa-react": "^4.1.2",
+    "single-spa-vue": "^2.3.0",
+    "vue": "^2.6.12"
+  }
+}
