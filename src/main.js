@@ -1,5 +1,5 @@
 import { registerApplication, start } from 'single-spa'
-import { createStore } from './store/index.js'
+import { createStore } from './store'
 
 window.store = createStore()
 

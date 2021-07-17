@@ -32,6 +32,7 @@ const App = () => {
   return (
     <div style={styles.navbar}>
       <h2 style={styles.h2}>React Clicks Count: {count}</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, quibusdam?</p>
     </div>
   )
 }
